@@ -1,6 +1,6 @@
 {
-  "author": "阮一峰",
-  "description": "《ECMAScript 6 入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
+  "author": "甄宝玉",
+  "description": "意淫，是一本开源的有情有义的情色读物。读来上瘾，启迪智慧。",
   "extension": null,
   "generator": "site",
   "isbn": "9787121324758",
@@ -13,7 +13,7 @@
 	  "weibo": null
 	},
 	"sidebar": {
-	  "阮一峰的个人网站": "https://www.ruanyifeng.com/blog/"
+	  "网站": "https://yiyin.netlify.com/"
 	}
   },
   "output": null,
@@ -31,6 +31,6 @@
 	"paperSize": "a4"
   },
   "plugins": [],
-  "title": "ECMAScript 6 入门",
+  "title": "意淫",
   "variables": {}
 }

@@ -27,9 +27,9 @@
 1. [Generator 函数的语法](#docs/generator)
 1. [Generator 函数的异步应用](#docs/generator-async)
 1. [async 函数](#docs/async)
-1. [Class 的基本语法](#docs/class)
-1. [Class 的继承](#docs/class-extends)
-1. [Module 的语法](#docs/module)
+2. [Class 的基本语法](#docs/class)
+2. [Class 的继承](#docs/class-extends)
+3. [Module 的语法](#docs/module)
 1. [Module 的加载实现](#docs/module-loader)
 1. [编程风格](#docs/style)
 1. [读懂规格](#docs/spec)
@@ -38,6 +38,7 @@
 1. [最新提案](#docs/proposals)
 1. [Decorator](#docs/decorator)
 1. [参考链接](#docs/reference)
+1. [参考链接2](#docs/reference)
 
 ## 其他
 - [源码](https://github.com/ruanyf/es6tutorial/)
