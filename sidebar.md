@@ -4,26 +4,28 @@
 
 授权：<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">署名-非商用许可证</a>
 
-## 目录
-0. [前言](#README)
-1. [ECMAScript 6简介](#docs/intro)
-1. [let 和 const 命令](#docs/let)
+# 目录
+0. [11前言](#README)
+1. [1ECMAScript 6简介](#docs/intro)
+1. [1let 和 const 命令](#docs/let)
 1. [变量的解构赋值](#docs/destructuring)
 1. [字符串的扩展](#docs/string)
-1. [字符串的新增方法](#docs/string-methods)
-1. [正则的扩展](#docs/regex)
+## 目录
+1. [2字符串的新增方法](#docs/string-methods)
+1. [2正则的扩展](#docs/regex)
 1. [数值的扩展](#docs/number)
 1. [函数的扩展](#docs/function)
 ### 目录2
-1. [数组的扩展](#docs/array)
-1. [对象的扩展](#docs/object)
-1. [对象的新增方法](#docs/object-methods)
+1. [3数组的扩展](#docs/array)
+1. [3对象的扩展](#docs/object)
+1. [3对象的新增方法](#docs/object-methods)
 #### 目录1
-1. [运算符的扩展](#docs/operator)
-1. [Symbol](#docs/symbol)
+1. [4运算符的扩展](#docs/operator)
+1. [4Symbol](#docs/symbol)
 1. [Set 和 Map 数据结构](#docs/set-map)
 1. [Proxy](#docs/proxy)
 1. [Reflect](#docs/reflect)
+# dd
 1. [Promise 对象](#docs/promise)
 1. [Iterator 和 for...of 循环](#docs/iterator)
 1. [Generator 函数的语法](#docs/generator)
