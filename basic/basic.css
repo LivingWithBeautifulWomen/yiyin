@@ -1,0 +1,25 @@
+/* CSS styles for layout */
+.top-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    float: left;
+  }
+  
+  .main-content {
+    margin-left: 220px; /* Sidebar width (200px) + margin (20px) */
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .content.active {
+    display: block;
+  }
+  

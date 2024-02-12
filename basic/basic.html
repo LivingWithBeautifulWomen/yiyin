@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar Navigation Example</title>
+  <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+  <nav class="top-nav">
+    <!-- Top navigation content -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <aside class="sidebar" aria-label="Main Navigation">
+    <!-- Sidebar content -->
+    <ul>
+      <li><a href="#" class="sidebar-link" data-content="content1">Menu 1</a></li>
+      <li><a href="#" class="sidebar-link" data-content="content2">Menu 2</a></li>
+      <li><a href="#" class="sidebar-link" data-content="content3">Menu 3</a></li>
+    </ul>
+  </aside>
+  
+  <section class="main-content">
+    <!-- Content area to be dynamically updated -->
+    <div id="content1" class="content">Content for Menu 1</div>
+    <div id="content2" class="content">Content for Menu 2</div>
+    <div id="content3" class="content">Content for Menu 3</div>
+  </section>
+
+  <script src="basic.js"></script>
+</body>
+</html>

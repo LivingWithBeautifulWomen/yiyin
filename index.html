@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/yy.css">
 	<meta charset="UTF-8">
 	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 	<title>意淫</title>
@@ -14,7 +14,7 @@
 			<div class="top_navbar">
 				<div class="hamburger"><a href="#"><i class="fas fa-bars"></i></a></div>
 			</div>
-			<div class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
+			<div class="container">Lorem ipsum dolor sit amet</div>
 		</div>
 		
 		<div class="sidebar">
@@ -24,24 +24,36 @@
 				<p>她能骚 我不能扰</p>
 			</div>
 			<ul class="nav-links">
-				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-user-friends'></i></span><span class="link_name">人物传纪</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-user-friends'></i></span><span class="link_name item">有名有姓</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
 					<ul class="sub-menu">
-						<li><a href="#">刘艳</a></li>
-						<li><a href="#">白洁</a></li>
-						<li><a href="#">张敏</a></li>
+						<li><a href="#" class="sidebar-link" data-content="a_liuyan">刘艳</a></li>
+						<li><a href="#" class="sidebar-link" data-content="a_baijie">白洁</a></li>
+						<li><a href="#" class="sidebar-link" data-content="a_zhangmin">张敏</a></li>
+						<li><a href="#" class="sidebar-link" data-content="content3">李1婉琳</a></li>
 					</ul>
 				</li>
-				<li><a href="#"><span class="icon"><i class="fas fa-home"></i></span>      <span class="item">Home</span></a></li>
-				<li><a href="#"><span class="icon"><i class="fas fa-desktop"></i></span><span class="item">My Dashboard</span></a></li>
-                <li><a href="#"><span class="icon"><i class="fas fa-user-friends"></i></span><span class="item">People</span></a></li>
-                <li><a href="#"><span class="icon"><i class="fas fa-tachometer-alt"></i></span><span class="item">Perfomance</span></a></li>
-                <li><a href="#"><span class="icon"><i class="fas fa-database"></i></span><span class="item">Development</span></a></li>
-                <li><a href="#"><span class="icon"><i class="fas fa-chart-line"></i></span><span class="item">Reports</span></a></li>
-                <li><a href="#"><span class="icon"><i class="fas fa-user-shield"></i></span><span class="item">Admin</span></a></li>
-                <li><a href="#"><span class="icon"><i class="fas fa-cog"></i></span><span class="item">Settings</span></a></li>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-home'></i></span><span class="link_name item">家人</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-desktop'></i></span><span class="link_name item">乡野</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+					<ul class="sub-menu">
+						<li><a href="#" class="sidebar-link" data-content="content1">小村神医</a></li>
+					</ul>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-database'></i></span><span class="link_name item">校园</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-cog'></i></span><span class="link_name item">都市</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-chart-line'></i></span><span class="link_name item">职场</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-tachometer-alt'></i></span><span class="link_name item">旅途</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-user-friends'></i></span><span class="link_name item">海外</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-user-friends'></i></span><span class="link_name item">反差</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
             </ul>		
 		</div>
 	</div>
+
+	<section class="main-content">
+		<!-- Content area to be dynamically updated -->
+		<div id="a_liuyan" class="content">Content for Menu 1 liuyan </div>
+		<div id="content2" class="content">Content for Menu 2</div>
+		<div id="content3" class="content">Content for Menu 3</div>
+	</section>
+	
 	<script src="scripts/yy.js"></script>
 </body>
 </html>
