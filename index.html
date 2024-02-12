@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link rel="stylesheet" href="css/style.css">
 	<meta charset="UTF-8">
@@ -15,15 +16,23 @@
 			</div>
 			<div class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
 		</div>
+		
 		<div class="sidebar">
 			<div class="profile">
 				<img src="images/logo.png" alt="profile pic">
 				<h1>意 淫</h1>
 				<p>她能骚 我不能扰</p>
 			</div>
-            <ul>
-                <li><a href="#" class="active"><span class="icon"><i class="fas fa-home"></i></span><span class="item">Home</span></a></li>
-                <li><a href="#"><span class="icon"><i class="fas fa-desktop"></i></span><span class="item">My Dashboard</span></a></li>
+			<ul class="nav-links">
+				<li><div class="iocn-link"><a href="#"><span class="icon"><i class='fas fa-user-friends'></i></span><span class="link_name">人物传纪</span></a><i class='bx bxs-chevron-down arrow' ></i></div>
+					<ul class="sub-menu">
+						<li><a href="#">刘艳</a></li>
+						<li><a href="#">白洁</a></li>
+						<li><a href="#">张敏</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><span class="icon"><i class="fas fa-home"></i></span>      <span class="item">Home</span></a></li>
+				<li><a href="#"><span class="icon"><i class="fas fa-desktop"></i></span><span class="item">My Dashboard</span></a></li>
                 <li><a href="#"><span class="icon"><i class="fas fa-user-friends"></i></span><span class="item">People</span></a></li>
                 <li><a href="#"><span class="icon"><i class="fas fa-tachometer-alt"></i></span><span class="item">Perfomance</span></a></li>
                 <li><a href="#"><span class="icon"><i class="fas fa-database"></i></span><span class="item">Development</span></a></li>
