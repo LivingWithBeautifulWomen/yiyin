@@ -5,9 +5,9 @@
 授权：<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">署名-非商用许可证</a>
 
 ## 目录
-1. [前言](#README)
-1. [ECMAScript 6简介](#docs/intro)
-1. [let 和 const 命令](#docs/let)
+0. [前言](#README)
+11. [ECMAScript 6简介](#docs/intro)
+123. [let 和 const 命令](#docs/let)
 1. [变量的解构赋值](#docs/destructuring)
 1. [字符串的扩展](#docs/string)
 1. [字符串的新增方法](#docs/string-methods)
