@@ -19,7 +19,6 @@ sidebarBtn.addEventListener("click", ()=>{
 	sidebar.classList.toggle("close");
 });
 	
-
 document.addEventListener('DOMContentLoaded', function() {
     const sidebarLinks = document.querySelectorAll('.sidebar-link');
   
